@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Icons</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .instructions {
+      max-width: 600px;
+      margin: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    .icon-preview {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Create Extension Icons</h1>
+  
+  <div class="instructions">
+    <h2>Instructions</h2>
+    <p>This page helps you generate the required PNG icons for the Chrome extension.</p>
+    <p>Below is the SVG icon. Right-click on each icon and select "Save image as..." to save them with the correct names.</p>
+    <ol>
+      <li>Save the 16x16 icon as <strong>icon16.png</strong></li>
+      <li>Save the 48x48 icon as <strong>icon48.png</strong></li>
+      <li>Save the 128x128 icon as <strong>icon128.png</strong></li>
+    </ol>
+    <p>Place all icons in the "images" folder of your extension.</p>
+  </div>
+  
+  <div class="icon-preview">
+    <h3>16x16 Icon</h3>
+    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+      <rect width="16" height="16" rx="3" fill="#4285f4"/>
+      <circle cx="8" cy="8" r="5" fill="#ffffff"/>
+      <path d="M8 5 L8 11" stroke="#4285f4" stroke-width="1" stroke-linecap="round"/>
+      <path d="M5 8 L11 8" stroke="#4285f4" stroke-width="1" stroke-linecap="round"/>
+      <path d="M6 6 L10 10" stroke="#4285f4" stroke-width="1" stroke-linecap="round"/>
+      <path d="M10 6 L6 10" stroke="#4285f4" stroke-width="1" stroke-linecap="round"/>
+    </svg>
+  </div>
+  
+  <div class="icon-preview">
+    <h3>48x48 Icon</h3>
+    <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+      <rect width="48" height="48" rx="8" fill="#4285f4"/>
+      <circle cx="24" cy="24" r="15" fill="#ffffff"/>
+      <path d="M24 14 L24 34" stroke="#4285f4" stroke-width="3" stroke-linecap="round"/>
+      <path d="M14 24 L34 24" stroke="#4285f4" stroke-width="3" stroke-linecap="round"/>
+      <path d="M18 18 L30 30" stroke="#4285f4" stroke-width="3" stroke-linecap="round"/>
+      <path d="M30 18 L18 30" stroke="#4285f4" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+  
+  <div class="icon-preview">
+    <h3>128x128 Icon</h3>
+    <svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+      <rect width="128" height="128" rx="20" fill="#4285f4"/>
+      <circle cx="64" cy="64" r="40" fill="#ffffff"/>
+      <path d="M64 38 L64 90" stroke="#4285f4" stroke-width="8" stroke-linecap="round"/>
+      <path d="M38 64 L90 64" stroke="#4285f4" stroke-width="8" stroke-linecap="round"/>
+      <path d="M48 48 L80 80" stroke="#4285f4" stroke-width="8" stroke-linecap="round"/>
+      <path d="M80 48 L48 80" stroke="#4285f4" stroke-width="8" stroke-linecap="round"/>
+    </svg>
+  </div>
+  
+  <p>Note: If you have image editing software, you can also create these icons manually with your preferred design.</p>
+</body>
+</html> 
